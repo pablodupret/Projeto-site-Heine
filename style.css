@@ -1,0 +1,205 @@
+
+
+/* 
+#FE0DE4
+#B014A7
+#5A0B64
+#00142F
+
+
+Do adobe colar a partir do #FE0DE4
+
+#FF0700
+#E8005D
+#FE0DE4
+#B500E8
+#8200FF
+
+
+Cores a partir do Banner - extraindo do tema no Adobe Color
+
+#F21BE4
+#8130F2
+#021E73
+#021740
+#011126
+
+Gostei mais dessa opção
+*/
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+
+    --cor1: #F21BE4;
+    --cor2: #8130F2;
+    --cor3: #021E73;
+    --cor4: #021740;
+    --cor5: #011126;
+
+}
+
+
+header { 
+    background-color:var(--cor5); 
+
+}
+
+header img{
+    width: 100%;
+}
+
+nav {
+    background-color:var(--cor5);
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+nav > a {
+
+    color: #9554ef;
+    background-color: var(--cor4);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+   /*background-color: var(--cor2); Optei por fazer gradiente no hover com o linear gradient abaixo*/
+   background-image: linear-gradient(to bottom, #d11ac5, var(--cor3));
+    color: white;
+}
+
+body{ 
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color:var(--cor4);
+    margin: 0px;
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: var(--cor4);   
+    min-width: 280px;
+    max-width: 1000px;
+    padding: 20px;
+    margin: auto;
+}
+
+p.intro{
+
+    font-size: 1.3em;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+main {
+    padding: 25px;
+    min-width: 280px;
+    max-width: 900px;
+    margin: auto;
+    background-color: var(--cor5);
+    box-shadow: 0px 0px 15px 3px rgba(255, 255, 255, 0.219);
+    border-radius: 10px;
+    
+}
+
+h1{
+    margin-left: 30px;
+    padding: 15px;
+}
+
+h2{
+
+    padding: 5px;
+    margin-left: 70px;
+    margin-bottom: 25px;
+    background-image: linear-gradient(to right, #690aee, transparent);
+}
+
+main img {
+
+/* width: 30%;
+display: block;
+margin: auto;
+Isso acima deixa as imagens centralizadas centralizado */
+
+display: flex;
+align-items: center;
+width: 30%;
+margin-left: 90px;
+margin-bottom: 70px;
+    
+}
+
+p.packs{
+
+    margin-left: 80px;
+    margin-bottom: 25px;
+    font-size: 1.2em;
+}
+
+div.extra1{
+
+    min-width: 240px;
+    max-width: 900px;
+    padding: 25px;
+    margin: auto;
+    background-color: var(--cor5);
+    box-shadow: 0px 0px 15px 3px rgba(255, 255, 255, 0.219);
+    border-radius: 10px;
+
+}
+
+/* .container2 {
+    display: flex;
+    align-items: center;
+    background-color: var(--cor1);   
+    padding: 20px;
+    margin: auto;
+} ----- Eu N anulei isso aqui para tentar fazer igual o Estudonauta --  */
+
+.container2 {
+
+    background-color: var(--cor4)
+    margin-bottom: 30px;
+    margin-left: -25px;
+    margin-right: -25px;
+    padding: 25px;
+    position: relative;
+    padding-bottom: 57%;
+
+}
+
+.container2 > iframe {
+
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+.centro{
+    
+   text-align: center;
+   background-color: #5f26af;
+   padding: 10px;
+   margin: -25px -25px -0px -25px;
+   border-radius: 10px 10px 0px 0px;
+}
